@@ -1,0 +1,104 @@
+{
+    "products": [
+        {
+            "id": 0,
+            "img": "https://lab.marsit.uz/media/shop/Mars%20Airpods/Mars_Airpods_anB6Ly3.png",
+            "name": "Mars Airpods",
+            "coins": 899,
+            "ostatok": 6
+        },
+        {
+            "id": 1,
+            "img": "https://lab.marsit.uz/media/shop/Mars%20Watch/Mars_watch_kHsej2q.png",
+            "name": "Mars Watch",
+            "coins": 899,
+            "ostatok": 6
+        },
+        {
+            "id": 2,
+            "name": "Mars Pen",
+            "img": "https://lab.marsit.uz/media/shop/Mars%20pen/pen_N3vqgQr.jpg",
+            "coins": 899,
+            "ostatok": 6
+        },
+        {
+            "id": 3,
+            "name": "Mars Rug",
+            "img":"https://lab.marsit.uz/media/shop/Mars%20Rug/rug.jpg",
+            "coins": 899,
+            "ostatok": 6
+        },
+        {
+            "id": 4,
+            "name": "Mars Earphones",
+            "img": "https://lab.marsit.uz/media/shop/Mars%20Earphones/Mars_earphone_1n4LcZO.png",
+            "coins": 899,
+            "ostatok": 6
+        },
+        {
+            "id": 5,
+            "name": "Mars Earphones",
+            "img": "https://lab.marsit.uz/media/shop/Mars%20Earphones/Mars_earphone_1n4LcZO.png",
+            "coins": 899,
+            "ostatok": 6
+        }
+    ],
+    "bot": [
+            {
+                "id": 0,
+                "title": "Even Battle",
+                "time": "13:00",
+                "date": "26-Iyul",
+                "location": "Tinchlik",
+                "eventDate": "27-Iyul 11:00"
+            },
+            {
+                "id": 1,
+                "title": "Ta'til",
+                "time": "18:00",
+                "date": "26-Iyul",
+                "location": "All stations",
+                "eventDate": "28-Iyul 11:00"
+            },
+            {
+                "id": 1,
+                "title": "Ta'til",
+                "time": "18:00",
+                "date": "26-Iyul",
+                "location": "All stations",
+                "eventDate": "28-Iyul 11:00"
+            },
+            {
+                "id": 0,
+                "title": "Even Battle",
+                "time": "14:00",
+                "date": "26-Iyul",
+                "location": "Tinchlik",
+                "eventDate": "30-Iyul 11:00"
+            }
+    ],
+    "news": [
+        {
+            "id": 0,
+            "img": "https://s3-alpha-sig.figma.com/img/8ace/a3b8/a65d79d6532f853e26e08100c98d465c?Expires=1691971200&Signature=kGPtd-ywEZhOHHX0k~RuMVfQON3lMDL5wjwqWfduU7xythN-ch~camE2Uhl~duV4fIolUwOL3ECr5R0OltLbeQ-gwImbiXWz9Rnc7KK4ktRZCPC2IdXTbZAqkKip6cCh2V7dwScIfWPpy~umcuLk791ObAwUl8x-~fHkMpGozEkqPGgR4lSAH4w7r~qIiy5X5fTBF6layYRoQ8OUOE38Fj3x7QWCp5Z4wL5F8hX-hDcwlLzfH~lvsg-DP6iCTw2KHMGzqpVANPN~NN4sDE-GhvnQU6PN3N~79f4Jgtf3gpRw7qBKcEZoQJGawHozyThC~AOjdVhF7H0WK-q7TzQrgw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "description": "😋 «Mars IT School»da mazali ziyofat!🍕 Kelayotgan yakshanba 23-iyul kuni barcha"
+        },
+        {
+            "id": 1,
+            "img": "https://s3-alpha-sig.figma.com/img/5bee/fbb5/b3eabbdde8f2d91e1c563615b12691b5?Expires=1691971200&Signature=g4t2vdUi85oCZ3Gd~1rsThElbA85~fSuDFpDRk26w7N14cnlI7yoaRLsc8Oa2L1AQTDaqDw3LXUECiC8hVdCbR7Z9Sr0DFiOTzMKdCoYkg8XdT3zcEHEqz2-pI2cbA8xgQ80CrD4rN9nWkKwH~3IDs-6pFBExDxi0mTZ6IV997q5Zh3mu6dcy9qyDpyrRkYjgIOFAEfI5-h6b7blu7j2-9KVp5bD3eaRNhWOBk49n5mqQ0YrCIQEO8HRCzFxyZ-HxSfQ2ib60ZeXUND9A~uo6PzwkgRhInh3gVn2xpGZKxZ1g9wl~dDfmd9PC3zbwiczbWOiFJ07PmFbE08a5qjrdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "description": "😋 «Mars IT School»da mazali ziyofat!🍕 Kelayotgan yakshanba 23-iyul kuni barcha"
+        },
+        {
+            "id": 2,
+            "img": "https://s3-alpha-sig.figma.com/img/3008/a778/2e06ee2d867517d480796c1f236c6103?Expires=1691971200&Signature=gpPnJj~GfEIzyxuywvPVATNcloThi6EbKBcRBF0HrW77L06E00tHUD5gVjquCKoSwpmrT0suot~Gx9z4glf18AduhmpGQbl9Z8wPM2fmedh5wMLMBqBdwZR1PrqsoZEJYt2-HQ4B8zB8-QldyWNkI9EIxaswymTR0M5hWgpkQJLXLZFPoFLtfXDF~Jf81qFRYWzk4xWhOdDsjmyjQGoEyqtI3cQdc4FE38O1BrD54au8f29T6-2spjXU86Q0gLpkyMqnqQNQdi4lQ16Zwh2azbtCsIdZNmHUWIYOp0xQ60DZhGSMr665LTWyH5FsCKPB4A2osCZV4MxruMfOIL2LQA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "description": "😋 «Mars IT School»da mazali ziyofat!🍕 Kelayotgan yakshanba 23-iyul kuni barcha"
+        },
+        {
+            "id": 2,
+            "img": "https://s3-alpha-sig.figma.com/img/3008/a778/2e06ee2d867517d480796c1f236c6103?Expires=1691971200&Signature=gpPnJj~GfEIzyxuywvPVATNcloThi6EbKBcRBF0HrW77L06E00tHUD5gVjquCKoSwpmrT0suot~Gx9z4glf18AduhmpGQbl9Z8wPM2fmedh5wMLMBqBdwZR1PrqsoZEJYt2-HQ4B8zB8-QldyWNkI9EIxaswymTR0M5hWgpkQJLXLZFPoFLtfXDF~Jf81qFRYWzk4xWhOdDsjmyjQGoEyqtI3cQdc4FE38O1BrD54au8f29T6-2spjXU86Q0gLpkyMqnqQNQdi4lQ16Zwh2azbtCsIdZNmHUWIYOp0xQ60DZhGSMr665LTWyH5FsCKPB4A2osCZV4MxruMfOIL2LQA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "description": "😋 «Mars IT School»da mazali ziyofat!🍕 Kelayotgan yakshanba 23-iyul kuni barcha"
+        }
+    ]
+    
+    
+}
