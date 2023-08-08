@@ -1,7 +1,9 @@
 <template>
   <section class="news-section">
     <div class="news">
-      <h1>News</h1>
+      <div class="news-header">
+        <h1>News</h1>
+      </div>
       <div class="news-cards">
         <div class="news-card" v-for="item in news" v-bind:key="item.id">
           <a href="#"><img v-bind:src="item.img" /></a>
@@ -52,15 +54,35 @@ export default {
 
 <style>
 .news-section {
-  width: 50%;
+  max-width: 50%;
+  width: 100%;
+  text-overflow: ellipsis;
 }
 .news {
   width: 100%;
-  padding: 21px 0 21px 24px;
+  padding: 11px 0 45px 0;
   border: 0.5px #a5a9bc solid;
   border-radius: 10px 10px 0 0;
   height: 514px;
   overflow-y: scroll;
+}
+
+.news {
+  overflow: hidden;
+  position: relative;
+}
+
+.news h1 {
+  color: #17233b;
+  font-size: 30px;
+  font-family: Inter;
+  font-weight: 500;
+  padding: 10px;
+  padding-left: 20px;
+  max-height: 50px;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .news-cards {
@@ -68,11 +90,6 @@ export default {
   flex-direction: column;
   align-items: center;
   padding: 0 21px 30px;
-}
-
-.news {
-  overflow: hidden;
-  position: relative;
 }
 
 .news-cards {
@@ -85,7 +102,7 @@ export default {
 }
 
 .news img {
-  width: 326px;
+  width: 100%;
   height: 110px;
   object-fit: cover;
   object-position: 20% 15%;
@@ -94,10 +111,10 @@ export default {
 }
 
 .news-description {
-  width: 326px;
+  width: 100%;
   height: 27px;
   position: absolute;
-  bottom: -9px;
+  bottom: 0;
   background: rgba(0, 0, 0, 0.6);
   padding-left: 20px;
   padding-top: 4px;
@@ -121,7 +138,7 @@ export default {
 
 .news-card {
   width: 100%;
-  height: 100px;
+  height: 110px;
   margin: 15px 0;
   overflow: initial;
   position: relative;

@@ -1,0 +1,102 @@
+.bot-cards {
+  
+    overflow-y: auto;
+    max-height: 245px;
+    padding: 21px 0;
+  }
+  
+  
+  .bot-cards::-webkit-scrollbar {
+    display: none;  
+  }
+  
+  
+  .bot-card {
+    width: 99.5%;
+    display: flex;
+    justify-content: space-between;
+    border-left: 7px solid #e3391b;
+    padding: 6px 19px 9px;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 21px;
+  }
+  
+  .bot-card:last-child {
+    margin-bottom: unset;
+  }
+  
+  .bot-card:hover {
+    background-color: #E3391B;
+    color: #fff;
+  }
+  
+  .bot-card:active {
+    background-color: #E3391B;
+    color: #fff;
+  }
+  
+  .bot-card .el-button {
+    border: none;
+    color: #e3391b;
+    background-color: none;
+  }
+  
+  .bot-card .el-button:nth-child(3) {
+    color: #898282;
+  }
+  
+  .bot-card .el-button:hover {
+    background-color: #e3391b;
+    color: #fff;
+  }
+  
+  .card-date {
+    border-right: 1px solid #d9d9d9;
+    padding-right: 22px;
+  }
+  
+  .card-bold {
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 700;
+  }
+  
+  .card-reg {
+    font-size: 12px;
+    font-family: Gilroy;
+    font-weight: 400;
+    margin-top: 6px;
+  }
+  
+  .card-title {
+    width: 100px;
+  }
+  
+  .loc p {
+    font-size: 10px;
+    font-family: Gilroy;
+    font-weight: 400;
+    /* margin-top: 3px; */
+  }
+  
+  .loc {
+    display: flex;
+    align-items: center;
+    margin-top: 11px;
+  }
+  
+  .card-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-date {
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 400;
+    padding-right: 37px;
+  }
+  
+  .card-right el-buuton {
+    padding-right: 26px;
+  }

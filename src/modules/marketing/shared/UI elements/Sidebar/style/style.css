@@ -1,0 +1,16 @@
+.sidebar {
+    width: 84px;
+    height: 100vh;
+    background-color: #17233B;
+    overflow: hidden;
+    position: fixed;
+    padding: 50px 0;
+}
+.dashboard{
+    background-color: #E3391B;
+    width: 85px;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,63 @@
+.socialmedia {
+    background-color: #17233b;
+    color: #fff;
+    width: 100%;
+    padding: 28px 38px;
+    border-radius: 20px;
+  }
+  
+  .socialmedia h1 {
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 500;
+  }
+  
+  .social-cards {
+    margin-right: 41px;
+  }
+  
+  .social-card {
+    margin-bottom: 60px;
+  }
+  .social-heading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 30px 0;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-family: Inter;
+    font-weight: 300;
+  }
+  
+  .calendar-v {
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+  }
+  
+  .calendar-v .vc-arrow {
+    display: none;
+  }
+
+  .calendar-v .vc-header .vc-title {
+    color: #fff;
+    background-color: #17233b;
+    font-size: 16px;
+  }

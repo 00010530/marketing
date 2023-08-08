@@ -1,0 +1,25 @@
+.bot-heading {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+  }
+  
+  .heading-right .el-button {
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25);
+    margin: 5px;
+    border-radius: 7px;
+    color: #17233b;
+    font-weight: 700;
+  }
+  
+  .heading-right .el-button:hover {
+    background-color: #17233B;
+    color: #fff;
+  }
+  
+  .heading-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+  }

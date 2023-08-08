@@ -18,7 +18,7 @@
         <div class="card-title">
           <p class="card-bold">{{ item.title }}</p>
           <div class="loc">
-            <div><img src="../../../assets/loc.png" alt="" /></div>
+            <div><img src="../../../assets/loc.svg" alt="" /></div>
             <p>{{ item.location }}</p>
           </div>
         </div>
@@ -114,7 +114,7 @@ export default defineComponent({
 
 
 .bot-cards::-webkit-scrollbar {
-  display: none;
+  display: none;  
 }
 
 
@@ -180,10 +180,10 @@ export default defineComponent({
 }
 
 .loc p {
-  font-size: 8px;
+  font-size: 10px;
   font-family: Gilroy;
   font-weight: 400;
-  margin-top: 6px;
+  /* margin-top: 3px; */
 }
 
 .loc {
